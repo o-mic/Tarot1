@@ -11,7 +11,7 @@ body,
   background-repeat: no-repeat;
   height:100%;
   background-size: cover;
-  font-family:Arial !important;
+  font-family:Georgia, 'Times New Roman', Times, serif !important;
   margin:0 auto;
    padding-inline: 3px;
   flex-direction: column;
