@@ -1,0 +1,40 @@
+<html>
+<head>
+<title>Home</title>
+<link href="css/style.css" rel="stylesheet" type="text/css">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+</head>
+<body class="body bodyhome">
+<div class="center">
+<div class="navbg">
+<a href="home.html" class="navlink">Home</a> |
+<a href="about.html" class="navlink">Instructions</a> |
+<a href="card.html" class="navlink">Predict</a></div></div>
+
+<div class="mid-container">
+<div><img src ="images/text.gif" class="logo"></div>
+
+<input id="question" type="text" placeholder="Enter your Question">
+<a href="card.html" class="abutton" onClick="return storeQuestion();">Predict</a>
+</div>
+</div>
+</div>
+</div>
+<script type="text/javascript">
+function storeQuestion()
+{
+var ques = document.getElementById('question');
+localStorage.setItem('question',ques.value);
+return true;
+}
+</script>
+
+</div>
+
+
+
+
+</body>
+</html>

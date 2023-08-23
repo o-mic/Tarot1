@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Tarot Card Reading</title>
+  <link href="css/style.css" rel="stylesheet" type="text/css">
+  <link href="css/bootstrap.min.css" rel="stylesheet">
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+  <style>
+
+    .hidden {
+      display: none;
+    }
+	 .deckImage {
+      width: 500px; cursor:pointer
+    }
+	#reshuffle {
+         position: absolute;
+    top: 25px;
+    right: 5%;
+}
+    }
+	#shuffle {
+      position: relative;
+      bottom: 10px;
+      left: 0px;
+
+    }
+	.btnshuffle{    background: #db66ff;
+    padding: 15px 30px;
+    border-radius: 10px;
+    border-color: white;
+    color: #FFF;
+    cursor: pointer;
+    top: -30px;
+    position: relative;}
+	.answer{background-color:#FFF; font-size:14px; padding:30px 15px; width:270px; line-height:24px; text-align:justify}
+.navlink {
+  color: purple;
+  text-decoration: none; /* Remove underline */
+}
+
+.navlink:hover {
+  text-decoration: none; /* Remove underline on hover */
+    color: purple;
+}
+    @media only screen and (max-width: 600px) {
+      .deckImage {
+        width: 350px; cursor:pointer
+      }
+    }
+  </style>
+</head>
+<body class="body bodyprd">
+<div class="container">
+
+<div class="row">
+<div class="col-md-12 text-center">
+<div class="center">
+<div class="navbg">
+<a href="home.html" class="navlink">Home</a> |
+<a href="about.html" class="navlink">Instructions</a> |
+<a href="card.html" class="navlink">Predict</a>
+</div>
+</div>
+</div>
+</div>
+
+
+
+
+
+ <div class="row">
+    <div class="col-md-12 text-center">
+      <div class="mid-container">
+        <br><br>
+        <img src="images/new.gif" class="logocard"><br>
+        <font color="pink">
+          <font size="5">
+          You will receive three cards which will correspond to the following three categories.<br>
+          Self - represents your current subconscious tendencies, desires, & fears. <br>
+          Future - refers to the feelings you will experience over the next 7 years.  <br>
+          Quest - is a challenge, journey or a major life change you will experience in the future.<br>
+          </font>
+        </font>
+      </div>
+    </div>
+  </div>
+
+
+<div class="row">
+  <div class="col-sm-12 text-center">
+    <div>
+      <div class="d-flex justify-content-center">
+        <img src="images/deck1.png" alt="Deck of Cards" class="img-fluid deckImage" id="shuffleimg">
+      </div>
+      <div class="d-flex justify-content-center mt-3">
+        <a href="card1.html" class="btn btn-primary btnshuffle">Shuffle Cards</a>
+      </div>
+      <div class="d-flex justify-content-center mt-3 hidden">
+        <a href="card1.html" class="btn btn-primary btnshuffle">Reshuffle Cards</a>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+
+
+
+
+
+</div>
+</body>
+</html>
