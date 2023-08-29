@@ -28,7 +28,7 @@ body,
   .bodyprd {
   background-image: url(../images/ba12.jpeg);
   background-repeat: no-repeat;}
-a{font: size 14px;px}
+a{font: size 14px;px},
 p {
 text-align:center;  line-height:30px;
     }
@@ -52,10 +52,10 @@ text-align:center;  line-height:30px;
 
 }
 
-#pic1, #pic2, #pic3, #pic4, #pic5, #pic6, #pic7, #pic8 {
+#pic1, #pic2, #pic3, #pic4, #pic5, #pic6, #pic7, #pic8, #pic9, #pic10, #pic11  {
     /*background-color: #6610f2;*/
-    width: 200px;  /*image width */
-    height: 50px; /* image height */
+    width: 280px;  /*image width */
+    height: 70px; /* image height */
     display: inline-block; /* so that it behaves like the img element */
 	background: no-repeat center;
 	
