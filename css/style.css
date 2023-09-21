@@ -11,7 +11,7 @@ body,
   background-repeat: no-repeat;
   height:100%;
   background-size: cover;
-  font-family: Verdana, Geneva, Tahoma, sans-serif !important;
+  font-family:  'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif,  !important;
   margin:0 auto;
    padding-inline: 3px;
   flex-direction: column;
