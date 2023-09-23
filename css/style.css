@@ -98,7 +98,7 @@ top:15px;
 	  margin:0 auto;
 	  width:990px
     }
-#cards img{width:300px}
+    #cards img{width:300px; height: 514px;}
   
   .card {
       /*border: 1px solid #fff;*/
